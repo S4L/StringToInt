@@ -22,7 +22,7 @@ String to Int.vcxproj.filters
     "Source Files" filter).
 
 String to Int.cpp
-    This is the main application source file.
+    This is the main application source file that contains logics for string to integer conversion.
 
 /////////////////////////////////////////////////////////////////////////////
 Other standard files:
