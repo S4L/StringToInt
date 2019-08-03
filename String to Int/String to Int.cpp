@@ -21,7 +21,6 @@ void PressKeyToExit() {
 	cout << "Press any key and the 'Enter' to exit";
 	char hold;
 	cin >> hold;
-	
 }
 
 int ConvertStringToInt(string input) {
@@ -50,7 +49,6 @@ bool TryAgain() {
 	if (answer == 'y' || answer == 'Y') {
 		return true;
 	}
-
 	return false;
 }
 
@@ -59,7 +57,6 @@ int main()
 	string word;
 
 	do {
-		
 		cout << "Please enter a string: ";
 		cin >> word;
 
@@ -70,7 +67,6 @@ int main()
 		else {
 			cout << "Number convert from string to int: " << ConvertStringToInt(word) << endl;
 		}
-
 	} while (TryAgain());
 
 	// A pause to keep program from closing after finish execution
